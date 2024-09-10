@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*começo do header*/
+header{
+    background-color: #ffc2ce;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header i{
+    color: white;
+    font-size: 50px;
+}
+
+header h1{
+
+    color: white;
+
+    font-size: 25px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*fim do header*/
+
+/*começo da section-1*/
+.section-1{
+    background-image: url(imghistoria/strawberry-ice-cream-2239377_1280.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 button{
+    height: 40px;
+    width: 70px;
+    background-color: rgba(128, 128, 128, 0.425);
+    border-radius: 12px;
+}
+
+.section-1 button:hover{
+    background-color:#fcd2da;
+    border-color:#ffc2ce;
+    transition: 0.7s;
+    color: white;
+    cursor: pointer;
+}
+
+/*fim da section-1*/
+
+/*começo da section-2*/
+
+.section-2{
+  padding: 250px;
+  background-color: #80b3ff;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-2 img{
+ height: 200px;
+ height: auto;
+ box-shadow:10px 25px 15px black;
+ border-radius: 10px;
+}
+
+.section-2 h2{
+    color: black;
+    font-size: 25px;
+
+}
+
+.section-2 p{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*fim section-2*/
+
+/*começo section-3*/
+
+.section-3{
+    padding: 240px;
+    background-color: #fd6e8a;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.texto-mapa h2{
+    margin: 15px;
+    font-size: 25px;
+}
+
+.texto-mapa p{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.mapa iframe{
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/*fim section-3*/
+
+/*começo footer*/
+
+footer{
+padding: 100px;
+background-color: #a2122f;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer .line{
+    width: 95px;
+    height: 1.5px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.div-icones a{
+    text-decoration: none;
+    color: white;
+}
+
+.div-icones a i{
+    background-color: #fcd2da;
+    padding: 7px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.div-icones a i:hover{
+    background-color: #fd6e8a;
+    transition: 0.7s;
+
+}
+/*fim do footer*/
+
+html{
+    scroll-behavior: smooth;
+}
