@@ -75,10 +75,10 @@ header nav ul li a {
 }
 .section-2 button{
     height: 40px;
-    width: 90px;
+    width: 150px;
     background-color: rgba(128, 128, 128, 0.425);
     border-radius: 12px;
-
+    margin-top: 30px;
 }
 
 .section-2 button:hover{

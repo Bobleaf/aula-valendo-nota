@@ -6,28 +6,28 @@
 }
 /*começo do header*/
 header{
-    background-color: #ffc2ce;
-    padding: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: #ffc2ce; /*cor de fundo*/
+    padding: 15px; /*tamanho da pagina*/
+    display: flex; /*deixa os icones lado a lado*/
+    justify-content: space-evenly;/*deixa os icones no final da pagina*/
+    align-items: center;/*alinha tudo */
 }
 
 header i{
-    color: white;
-    font-size: 50px;
+    color: white;/*cor*/
+    font-size: 50px;/*tamanho das letras*/
 }
 
 header h1{
 
-    color: white;
+    color: white;/*cor*/
 
-    font-size: 25px;
+    font-size: 25px;/*tamanho da letra*/
 }
 
 header nav ul{
-    display: flex;
-    gap: 20px;
+    display: flex;/*deixa os itens lado a lado*/
+    gap: 20px;/*espaçamento geral*/
 }
 header nav ul li a{
     text-decoration: none;
