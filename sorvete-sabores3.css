@@ -1,39 +1,60 @@
+/* (*) usado para mudar a configuraçao geral do site */
 * {
     margin: 0;
+    /* zarando a marigin do site */
     padding: 0;
+    /* zerando o preenchimento*/
     list-style: none;
+    /* removendo os estilos de listas */
+    text-decoration: none;
+    /* tirando a decoraçao do texto */
     font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
+
 }
 
 /*começo do header*/
 header {
     background-color: #ffc2ce;
+    /*cor de fundo*/
     padding: 15px;
+    /*tamanho da pagina*/
     display: flex;
+    /*deixa os icones lado a lado*/
     justify-content: space-evenly;
+    /*deixa os icones no final da pagina*/
     align-items: center;
+    /*alinha tudo */
 }
 
 header i {
     color: white;
+    /*cor*/
     font-size: 50px;
+    /*tamanho das letras*/
 }
 
 header h1 {
 
     color: white;
+    /*cor*/
 
     font-size: 25px;
+    /*tamanho da letra*/
 }
 
 header nav ul {
     display: flex;
+    /*deixa os itens lado a lado*/
     gap: 20px;
+    /*espaçamento nos lados*/
 }
 
 header nav ul li a {
     text-decoration: none;
+    /*tira as linhas da ancora*/
     color: white;
+    /*cor*/
 }
 
 /*fim do header*/
@@ -41,236 +62,355 @@ header nav ul li a {
 /*começo da section-1*/
 .section-1 {
     background-image: url(img-sabores/ice-cream-2202605_1280.jpg);
+    /*imagen de fundo*/
     padding: 200px;
+    /*tamanho do fudo*/
     background-repeat: no-repeat;
+    /*para não repetir a imagen*/
     background-size: cover;
+    /*faz a imagem prenecher tuda a section*/
     background-position: center;
+    /*deixa a imagen parada no sentro*/
     justify-content: center;
+    /*faz com que a imagen fique certa*/
     align-items: center;
-    text-align: center;
-
+    /*deixa os itesn no centro*/
+    align-items: center;
+    /*deixa os itens no centro*/
 }
 
 .section-1 h2 {
     color: white;
+    /*cor*/
     font-size: 25px;
+    /*tamanho da letra*/
 }
 
 .div-pai {
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: center;
+    /*deixa tudo no centro*/
     gap: 20px;
+    /*espaçamento das laterais*/
 
 }
 
 .div-pai div {
     width: 200px;
+    /*largura*/
     height: 280px;
+    /*altura*/
     border-radius: 10px;
+    /*arendondamento nas bordas*/
     box-shadow: 10px 25px 15px black
+        /*sombra*/
 }
 
 .div-pai .div-filho1 {
     background-image: url(img-sabores/coffee-4648041_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
 }
 
 .div-pai .div-filho1:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-pai .div-filho2 {
     background-image: url(img-sabores/bowl-932980_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
 }
 
 .div-pai .div-filho2:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-pai .div-filho3 {
     background-image: url(img-sabores/dessert-6494565_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
 }
 
 .div-pai .div-filho3:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-mae {
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: center;
+    /*deixa tudo no centro*/
     gap: 20px;
+    /*espaçamento das laterais*/
 }
 
 .div-mae div {
     width: 200px;
+    /*largura*/
     height: 280px;
+    /*altura*/
     border-radius: 10px;
+    /*arendondamento nas bordas*/
     box-shadow: 10px 25px 15px black
+        /*sombra*/
 }
 
 .div-mae .div-filho4 {
     background-image: url(img-sabores/sorvete-de-morango-vegano.jpeg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
-    margin-top: 20px;
+    /*prenche todo o campo*/
 }
 
 .div-pai .div-filho4:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
+
 
 .div-mae .div-filho5 {
     background-image: url(img-sabores/sorvete-de-chocolate.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
-    margin-top: 20px;
+    /*prenche todo o campo*/
 }
 
 .div-mae .div-filho5:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-mae .div-filho6 {
     background-image: url(img-sabores/fabricante-de-acai-cremoso.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
-    margin-top: 20px;
+    /*prenche todo o campo*/
 }
 
 .div-mae .div-filho6:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
-.div-tiu {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
 /*fim da section-1*/
 
 /*começo section-2*/
 .section-2 {
     background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745)100%), url(img-milk/ai-generated-8575889_1280.jpg);
+    /*degrade*/
     padding: 240px;
+    /*tamanho de fundo*/
     gap: 20px;
+    /*espaçamento lateral*/
     text-align: center;
+    /*texto alinhado*/
+}
+
+.div-tiu {
+    display: flex;
+    /*deixa os itens lado a lado*/
+    justify-content: center;
+    /*deixa tudo no centro*/
+    gap: 20px;
+    /*espaçamento das laterais*/
+
 }
 
 .div-tiu div {
     width: 200px;
+    /*largura*/
     height: 280px;
+    /*altura*/
     border-radius: 10px;
+    /*arendondamento nas bordas*/
     box-shadow: 10px 25px 15px black
+        /*sombra*/
 }
 
 .div-tiu .div-sobrinho1 {
     background-image: url(img-sabores/cocktail-1971489_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
 
 .div-tiu .div-sobrinho1:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-tiu .div-sobrinho2 {
     background-image: url(img-sabores/smoothie-5528952_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
 
 .div-tiu .div-sobrinho2:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-tiu .div-sobrinho3 {
     background-image: url(img-sabores/shake-677437_640.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
 
 .div-tiu .div-sobrinho3:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-tia {
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: center;
+    /*deixa tudo no centro*/
     gap: 20px;
+    /*espaçamento das laterais*/
 
 }
 
 .div-tia div {
     width: 200px;
+    /*largura*/
     height: 280px;
+    /*altura*/
     border-radius: 10px;
+    /*arendondamento nas bordas*/
     box-shadow: 10px 25px 15px black
+        /*sombra*/
 }
 
 .div-tia .div-sobrinho4 {
     background-image: url(img-milk/imagem_release_394806.jpg);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
 
 .div-tia .div-sobrinho4:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-tia .div-sobrinho5 {
     background-image: url(img-milk/milk-shake-uva.webp);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
 
 .div-tia .div-sobrinho5:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 .div-tia .div-sobrinho6 {
     background-image: url(img-milk/2019-07-16-milk-shake-ok.webp);
+    /*imagen de fundo*/
     background-repeat: no-repeat;
+    /*não repetir a imagen*/
     background-position: center;
+    /*deixa no centro*/
     background-size: cover;
+    /*prenche todo o campo*/
     margin-top: 20px;
+    /*distancia da margen de cima*/
 }
+
 
 .div-tia .div-sobrinho6:hover {
     transform: translate(0px, 20px);
+    /*a imagen desse um pouco*/
     transition: 0.7s;
+    /*transição*/
 }
 
 /*fim da section-2*/
@@ -279,40 +419,59 @@ header nav ul li a {
 
 footer {
     padding: 30px;
+    /*tamanho do futer*/
     background-color: #a2122f;
+    /*cor de fundo*/
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: space-evenly;
+    /*deixa os itens todos distanciado*/
     align-items: center;
+    /*deixa os itens alinhado no centro*/
 }
 
 footer img {
     width: 100px;
+    /*largura*/
 }
 
 footer .line {
     width: 95px;
+    /*largura*/
     height: 1.5px;
+    /*altura*/
     margin-top: 10px;
+    /*distancia do topo*/
     background-color: white;
+    /*cor de fundo*/
 }
 
 .div-icones a {
     text-decoration: none;
+    /*tira a linha debaixo da ancora*/
     color: white;
+    /*cor*/
 }
 
 .div-icones a i {
     background-color: #fcd2da;
+    /*cor de fundo*/
     padding: 7px;
+    /*tamanho do fundo*/
     font-size: 35px;
+    /*tamanho da letra*/
     border-radius: 10px;
+    /*deixa a ponta redonda*/
 }
 
 .div-icones a i:hover {
     background-color: #fd6e8a;
+    /*cor de fundo*/
     transition: 0.7s;
+    /*tempo de transição*/
 
 }
 
 /*fim do footer*/
 
+/*fim do footer*/

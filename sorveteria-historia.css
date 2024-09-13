@@ -1,169 +1,255 @@
-*{
+/* (*) usado para mudar a configuraçao geral do site */
+* {
     margin: 0;
+    /* zarando a marigin do site */
     padding: 0;
-    list-style: none ;
-    font-family: Arial, Helvetica, sans-serif;
-}
-/*começo do header*/
-header{
-    background-color: #ffc2ce; /*cor de fundo*/
-    padding: 15px; /*tamanho da pagina*/
-    display: flex; /*deixa os icones lado a lado*/
-    justify-content: space-evenly;/*deixa os icones no final da pagina*/
-    align-items: center;/*alinha tudo */
-}
-
-header i{
-    color: white;/*cor*/
-    font-size: 50px;/*tamanho das letras*/
-}
-
-header h1{
-
-    color: white;/*cor*/
-
-    font-size: 25px;/*tamanho da letra*/
-}
-
-header nav ul{
-    display: flex;/*deixa os itens lado a lado*/
-    gap: 20px;/*espaçamento geral*/
-}
-header nav ul li a{
+    /* zerando o preenchimento*/
+    list-style: none;
+    /* removendo os estilos de listas */
     text-decoration: none;
-    color: white;
+    /* tirando a decoraçao do texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
+
 }
+
+/*começo do header*/
+header {
+    background-color: #ffc2ce;
+    /*cor de fundo*/
+    padding: 15px;
+    /*tamanho da pagina*/
+    display: flex;
+    /*deixa os icones lado a lado*/
+    justify-content: space-evenly;
+    /*deixa os icones no final da pagina*/
+    align-items: center;
+    /*alinha tudo */
+}
+
+header i {
+    color: white;
+    /*cor*/
+    font-size: 50px;
+    /*tamanho das letras*/
+}
+
+header h1 {
+
+    color: white;
+    /*cor*/
+
+    font-size: 25px;
+    /*tamanho da letra*/
+}
+
+header nav ul {
+    display: flex;
+    /*deixa os itens lado a lado*/
+    gap: 20px;
+    /*espaçamento nos lados*/
+}
+
+header nav ul li a {
+    text-decoration: none;
+    /*tira as linhas da ancora*/
+    color: white;
+    /*cor*/
+}
+
 /*fim do header*/
 
 /*começo da section-1*/
-.section-1{
+.section-1 {
     background-image: url(imghistoria/strawberry-ice-cream-2239377_1280.jpg);
+    /*imagen de fundo*/
     padding: 200px;
+    /*tamanho da pagina*/
     background-repeat: no-repeat;
+    /*para imagen não repetir*/
     background-size: cover;
+    /*faz a imagem prenecher tuda a section*/
     background-position: center;
+    /*deixa a posição da imagen no sentro dela*/
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: center;
+    /*faz com que a imagen fique certa*/
     align-items: center;
+    /*alinha os itens no meio*/
 }
 
-.section-1 button{
+.section-1 button {
     height: 40px;
+    /*altura*/
     width: 70px;
+    /*largura*/
     background-color: rgba(128, 128, 128, 0.425);
+    /*cor de fundo*/
     border-radius: 12px;
+    /* deixar a borda redonda*/
 }
 
-.section-1 button:hover{
-    background-color:#fcd2da;
-    border-color:#ffc2ce;
+.section-1 button:hover {
+    background-color: #fcd2da;
+    /*cor de fundo*/
+    border-color: #ffc2ce;
+    /*cor da borda*/
     transition: 0.7s;
+    /*tempo de transição*/
     color: white;
+    /*cor*/
     cursor: pointer;
+    /*faz com que apareça uma mãozinha */
 }
 
 /*fim da section-1*/
 
 /*começo da section-2*/
 
-.section-2{
-  padding: 250px;
-  background-color: #80b3ff;
+.section-2 {
+    padding: 250px;
+    /*tamanho da section*/
+    background-color: #80b3ff;
+    /*cor de fundo*/
 
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    /*deixa os itens lado a lado*/
+    justify-content: space-evenly;
+    /*deixa os itens no final*/
+    align-items: center;
+    /*alinha os itens*/
+    gap: 20px;
+    /*espaço nos lados*/
 }
 
-.section-2 img{
- height: 200px;
- height: auto;
- box-shadow:10px 25px 15px black;
- border-radius: 10px;
+.section-2 img {
+    width: 200px;
+    /*largura*/
+    height: auto;
+    /*altura*/
+    box-shadow: 10px 25px 15px black;
+    /*deixa uma sombra*/
+    border-radius: 10px;
+    /*borda redonda*/
 }
 
-.section-2 h2{
+.section-2 h2 {
     color: black;
+    /*cor*/
     font-size: 25px;
+    /*tamanho da letra*/
 
 }
 
-.section-2 p{
+.section-2 p {
     color: black;
+    /*cor*/
     font-size: 20px;
+    /*tamanho da letra*/
     margin-top: 10px;
+    /*distancia de cima*/
 }
 
 /*fim section-2*/
 
 /*começo section-3*/
 
-.section-3{
+.section-3 {
     padding: 240px;
+    /*tamanho da section*/
     background-color: #fd6e8a;
+    /*cor de fundo*/
     display: flex;
+    /*deixa os itens lado a lado*/
     justify-content: space-evenly;
+    /*deixa os itens no fundo*/
     gap: 20px;
 }
 
-.texto-mapa h2{
+.texto-mapa h2 {
     margin: 15px;
+    /*espaçamento geral*/
     font-size: 25px;
+    /*tamanho letra*/
 }
 
-.texto-mapa p{
+.texto-mapa p {
     margin: 15px;
+    /*espaçamento geral*/
     font-size: 20px;
+    /*tamanho da letra*/
 }
 
-.mapa iframe{
+.mapa iframe {
     border-radius: 10px;
+    /*deixa as bordas redondas*/
     margin-right: 20px;
+    /*distancia da fireita*/
 }
 
 /*fim section-3*/
 
 /*começo footer*/
 
-footer{
-padding: 30px;
-background-color: #a2122f;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+footer {
+    padding: 30px;
+    /*tamanho do futer*/
+    background-color: #a2122f;
+    /*cor de fundo*/
+    display: flex;
+    /*deixa os itens lado a lado*/
+    justify-content: space-evenly;
+    /*deixa os itens todos distanciado*/
+    align-items: center;
+    /*deixa os itens alinhado no centro*/
 }
 
-footer img{
+footer img {
     width: 100px;
+    /*largura*/
 }
 
-footer .line{
+footer .line {
     width: 95px;
+    /*largura*/
     height: 1.5px;
+    /*altura*/
     margin-top: 10px;
+    /*distancia do topo*/
     background-color: white;
+    /*cor de fundo*/
 }
 
-.div-icones a{
+.div-icones a {
     text-decoration: none;
+    /*tira a linha debaixo da ancora*/
     color: white;
+    /*cor*/
 }
 
-.div-icones a i{
+.div-icones a i {
     background-color: #fcd2da;
+    /*cor de fundo*/
     padding: 7px;
+    /*tamanho do fundo*/
     font-size: 35px;
+    /*tamanho da letra*/
     border-radius: 10px;
+    /*deixa a ponta redonda*/
 }
 
-.div-icones a i:hover{
+.div-icones a i:hover {
     background-color: #fd6e8a;
+    /*cor de fundo*/
     transition: 0.7s;
+    /*tempo de transição*/
 
 }
+
 /*fim do footer*/
 
-html{
+html {
     scroll-behavior: smooth;
+    /*vai decendo como tiveçe arrastando para baixo*/
 }
