@@ -10,6 +10,7 @@
     /* tirando a decoraçao do texto */
     font-family: Arial, Helvetica, sans-serif;
     /*fonte da letra*/
+    box-sizing: border-box;
 
 }
 
@@ -156,7 +157,7 @@ header nav ul li a {
 /*começo da section-2*/
 
 .section-2 {
-    padding: 250px;
+    padding: min(20vh, 6rem);
     /*tamanho da section*/
     background-color: #80b3ff;
     /*cor de fundo*/
@@ -169,6 +170,7 @@ header nav ul li a {
     /*alinha os itens*/
     gap: 20px;
     /*espaço nos lados*/
+ 
 }
 
 .section-2 img {
@@ -359,8 +361,9 @@ html {
 
     /*estilização das section*/
     .section-1 {
-        padding: 8rem; /*almento da pagina */
+        padding: 15rem; /*almento da pagina */
         display: flex;/*deixa a section flexivel*/
+        align-items: center;
         flex-direction: column;/*deicha os itens da section em colunas*/
         justify-content: center;/*justifica tudo no centro*/
         align-items: center;/*os alinhamentos so itens para o centro*/
@@ -371,21 +374,23 @@ html {
     }
 
     .section-2 {
-        padding: 0.5rem;/*tamanho do site*/
+        padding: 5rem;/*tamanho do site*/
         display: flex;/*deixa o site flexivel*/
-        flex-direction: column;/*deixa os itens em colunas*/
-        justify-content: center;/*deixa o testo justo no centro*/
-        align-items: center;/*alinhamento dos itens*/
+
+        align-items: start;
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
+        
     }
 
     .section-2 div p {
         width: 100%;/*tamanho 100%*/
         line-height: 1.5;
-        text-align: center;/*alinhamento do texto*/
         justify-content: start;
         margin: 1em;/*espaçamento geral*/
         padding: 2.3rem;/*tamanho do site*/
-        margin-left: 15rem;
+        font-size: 1.5rem;
     }
 
     .section-2 div h2{
