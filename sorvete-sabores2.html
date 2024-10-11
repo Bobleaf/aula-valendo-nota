@@ -31,7 +31,48 @@
                     <a href="sorveteria2.html">ANTERIOR</a>
                 </li>
             </ul>
+             <!-- Criamos nossa caixa (DIV) para guardar os elementos do Hamburguer quando estiver aberto -->
+        <div class="mobile-menu" id="mobileMenu">
+  
+            <!-- Botão para ser utilizado para fechamento da lista -->
+            <button id="closeButton" class="close">
+                <i class="fas fa-times"></i>
+            </button>
+  
+            <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+            <ul class="nav-links-mobile">
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+                <li>
+                    <a href="">TESTE</a>
+                </li>
+            </ul>
+  
+  
+            <div id="btn-mobile" class="cad-mobile">
+              <button>
+                <a href="form.html" target="_blank">
+        
+                  <!-- <img src="img/user.png" alt=""> -->
+        
+                  <p>Cadastre-se</p>
+                </a>
+              </button>
+            </div>
+            <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+        </div>
+  
+        <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+      <button class="hamburger" id="hamburgerButton">
+          <i class="fas fa-bars"></i>
+      </button>
+    </nav>
     </header>
+
 
     <section class="section-1">
         <h1>Todos os sabores de sorvete</h1>
@@ -96,6 +137,8 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+
+<script src="js.js"></script>
 </body>
 
 </html>
