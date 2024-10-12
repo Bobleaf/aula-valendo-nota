@@ -10,7 +10,7 @@
     /* tirando a decoraçao do texto */
     font-family: Arial, Helvetica, sans-serif;
     /*fonte da letra*/
-
+    box-sizing: border-box;
 }
 
 /*começo do header*/
@@ -519,7 +519,144 @@ footer .line {
     /*tempo de transição*/
 
 }
+@media(max-width: 834px) {
 
+    html {
+        font-size: 12px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .mobile-menu {
+        z-index: 999;
+    }
+
+    #btn-header {
+       display: none;
+    }
+
+
+    .cad-mobile button {
+        width: 14rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: #f8f4f46c;
+        color: #000000;
+    }
+
+
+
+    .cad-mobile button a {
+        text-decoration: none;
+        color: white;
+
+    }
+    
+
+    header{
+        padding: 1.5rem; /*dimui um pouco o tamanho do padin da pagina*/
+    }
+
+    header i {
+        font-size: 2.5rem;
+        z-index: 999;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+
+
+    /*estilização das section*/
+    .section-1 {
+        padding: 15rem; /*almento da pagina */
+        display: flex;/*deixa a section flexivel*/
+        align-items: center;
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
+    }
+    .section-1 h2{
+        font-size: 2rem;/*tamanho da fonte da letra*/
+        text-align: left;/*o alinhamento do texto*/
+    }
+
+    .section-1 button{
+        width: 10rem;
+        height: 2rem;
+    }
+
+    .section-2 {
+        padding: 5rem;/*tamanho do site*/
+        display: flex;/*deixa o site flexivel*/
+
+        align-items: start;
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
+        
+    }
+
+    .section-2 div p {
+        width: 100%;/*tamanho 100%*/
+        line-height: 1.5;
+        justify-content: start;
+        margin: 1em;/*espaçamento geral*/
+        padding: 2.3rem;/*tamanho do site*/
+        font-size: 2rem;
+    }
+
+    .section-2 div h2{
+        font-size: 2rem;
+    }
+
+    .section-3{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section-3 p{
+        font-size: 2rem;
+    }
+    .section-3 h2{
+        margin: 20px;
+
+    }
+
+    .section-3 .mapa{
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    footer {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 1.1rem;
+    }
+
+    footer i{
+        font-size: 2.5rem;
+        z-index: 999;
+    }
+   
+}
 /*fim do footer*/
 
 /*fim do footer*/

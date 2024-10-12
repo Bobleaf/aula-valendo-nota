@@ -10,7 +10,20 @@
     /* tirando a decoraçao do texto */
     font-family: Arial, Helvetica, sans-serif;
     /*fonte da letra*/
+    box-sizing: border-box;
+}
 
+header {
+    background-color: #ffc2ce;
+    /*cor de fundo*/
+    padding: 15px;
+    /*tamanho da pagina*/
+    display: flex;
+    /*deixa os icones lado a lado*/
+    justify-content: space-evenly;
+    /*deixa os icones no final da pagina*/
+    align-items: center;
+    /*alinha tudo */
 }
 
 header i {
@@ -95,7 +108,7 @@ header nav ul li a {
 
 /*começo da section-1*/
 .section-1 {
-    background-image: url(img-sabores/ice-cream-410330_1280.jpg);
+    background: linear-gradient(180deg, #fffbfb64 8.33%, rgba(255, 255, 255, 0.664)100%), url(img-sabores/ice-cream-410330_1280.jpg);
     /*imagen de fundo*/
     padding: 200px;
     /*tamanho do fudo*/
@@ -109,12 +122,13 @@ header nav ul li a {
     /*faz com que a imagen fique certa*/
     align-items: center;
     /*deixa os itesn no centro*/
+   
 }
 
 .section-1 h2 {
     color: black;
     /*cor*/
-    font-size: 25px;
+    font-size: 30px;
     /*tamanho letra*/
 }
 
@@ -123,10 +137,11 @@ header nav ul li a {
     /*cor*/
     font-size: 25px;
     /*tamanho letra*/
+    font-weight: 600 ;
 }
 
 .section-1 span {
-    color: white;
+    color: black;
     /*cor*/
 }
 
@@ -417,4 +432,130 @@ footer .line {
 html {
     scroll-behavior: smooth;
     /*vai decendo como tiveçe arrastando para baixo*/
+}
+@media(max-width: 834px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .mobile-menu {
+        z-index: 999;
+    }
+
+    #btn-header {
+       display: none;
+    }
+
+
+    .cad-mobile button {
+        width: 14rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: #f8f4f46c;
+        color: #000000;
+    }
+
+
+
+    .cad-mobile button a {
+        text-decoration: none;
+        color: white;
+
+    }
+    
+
+    header{
+        padding: 2rem; /*dimui um pouco o tamanho do padin da pagina*/
+    }
+
+    header i {
+        font-size: 2.5rem;
+        z-index: 999;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+
+
+    /*estilização das section*/
+    .section-1 {
+        padding: 10rem; /*almento da pagina */
+        display: flex;/*deixa a section flexivel*/
+        align-items: center;
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
+    }
+    .section-1 h2{
+        font-size: 2rem;/*tamanho da fonte da letra*/
+        text-align: left;/*o alinhamento do texto*/
+    }
+
+    .section-1 button{
+        width: 10rem;
+        height: 2rem;
+    }
+
+    .section-2 {
+        padding: 4rem;/*tamanho do site*/
+        display: flex;/*deixa o site flexivel*/
+
+        align-items: start;
+        flex-direction: column;/*deicha os itens da section em colunas*/
+        justify-content: center;/*justifica tudo no centro*/
+        align-items: center;/*os alinhamentos so itens para o centro*/
+        
+    }
+
+
+    .section-3{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section-3 p{
+        font-size: 2rem;
+    }
+    .section-3 h2{
+        margin: 20px;
+
+    }
+
+    .section-3 .mapa{
+        font-size: 50px;
+        margin: 20px;
+    }
+
+    footer {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p{
+        font-size: 1.1rem;
+    }
+
+    footer i{
+        font-size: 2.5rem;
+        z-index: 999;
+    }
+   
 }
